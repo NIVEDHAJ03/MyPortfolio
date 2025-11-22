@@ -1,2 +1,1 @@
 # MyPortfolio
-personal portfolio website
