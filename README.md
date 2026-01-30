@@ -13,8 +13,8 @@ I’m **Nivedha J**, a passionate **Full Stack Developer** who enjoys creating r
 - Contact section with social links  
 
 ## 🛠️ Technologies Used
-- HTML5  
-- CSS3  
+- HTML  
+- CSS  
 - JavaScript  
 - Font Awesome  
 
