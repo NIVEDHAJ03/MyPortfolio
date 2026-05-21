@@ -338,6 +338,36 @@ h1{
   object-fit: contain;
 }
 
+.github-btn{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 22px;
+  border-radius: 10px;
+
+  background: transparent;
+  color: #ffffff;
+
+  border: 2px solid #9b4dff;
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px rgba(155, 77, 255, 0.4);
+}
+
+.github-btn:hover{
+  background: #00cfff;
+  color: #000;
+  border-color: #00cfff;
+
+  transform: scale(1.05);
+
+  box-shadow: 0 0 18px #00cfff;
+}
+
+
 /*Portfolio page*/
 /* Base styles */
 .portfolio {
@@ -518,6 +548,30 @@ h1{
   color: #00bcd4;
 }
 
+.achievement-btn{
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 14px;
+
+  border: 1.5px solid #9b4dff;
+  border-radius: 8px;
+
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: 0.3s ease;
+  box-shadow: 0 0 8px rgba(155, 77, 255, 0.3);
+}
+
+.achievement-btn:hover{
+  background: #00cfff;
+  color: black;
+  border-color: #00cfff;
+
+  box-shadow: 0 0 15px #00cfff;
+}
 
 /* About page */
 .about {
@@ -653,3 +707,34 @@ h1{
   }
 }
 
+
+.experience-box{
+  margin-top: 25px;
+  padding: 20px;
+
+  border: 1px solid #9b4dff;
+  border-radius: 15px;
+
+  background: rgba(255,255,255,0.03);
+
+  box-shadow: 0 0 12px rgba(155, 77, 255, 0.2);
+
+  transition: 0.3s ease;
+}
+
+.experience-box:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 207, 255, 0.4);
+}
+
+.experience ul{
+  width: 85%;
+  margin: 15px auto;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.experience ul li{
+  margin-bottom: 10px;
+  color: rgb(124, 139, 139);
+}
